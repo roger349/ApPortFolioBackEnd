@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/jornada")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolioap-ef578.web.app")
 public class JornadaLaboralController {
      @Autowired
     private IJornadaLaboralService IJorLServ;
